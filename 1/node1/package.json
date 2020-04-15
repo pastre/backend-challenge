@@ -1,0 +1,24 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "Esse é um writeup para o desafio 1 proposto na Apple Developer Academy",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pastre/desafio-1-node.git"
+  },
+  "author": "Bruno Pastre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pastre/desafio-1-node/issues"
+  },
+  "homepage": "https://github.com/pastre/desafio-1-node#readme",
+
+  "dependencies" : {
+    "express": "^4.17.1"
+  }
+}
