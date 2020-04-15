@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def reflections(request, name = None):
+	return HttpResponse(f'<h1>NOME TOSCO {name}</h1>')
